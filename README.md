@@ -5,8 +5,13 @@ Change site styles and changed the site Firebase Project and Datastructures.  Ad
 Altered the CSS by adding media queries to make the site work on small devices.
 Now users can add bikes, and then add maintenance logs to that bike.
 
-## Project setup
+##Hosting: Firebase
+
+https://bike-maintain.web.app/
 ```
+
+## Project setup
+
 npm install
 ```
 
