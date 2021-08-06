@@ -1,8 +1,8 @@
 <template>
   <div class="footer">
-     <nav>
+     
       <h3>@T-Apps</h3>
-     </nav>
+     
   </div>
 </template>
 
@@ -14,15 +14,21 @@ export default {
 
 <style scoped>
     .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     padding: 16px 10px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     margin-top: 30px;
     background: rgb(129, 211, 197);
+    text-align: center;
   }
-  nav {
+  /* nav {
     display: flex;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-  }
+    text-align: center;
+  } */
 </style>

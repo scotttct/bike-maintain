@@ -35,6 +35,7 @@ export default {
       title.value = ''
       details.value = ''
       date.value = ''
+      showForm = false
     }
     return { title, details, date, showForm, handleSubmit }
   }

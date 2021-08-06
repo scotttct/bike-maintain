@@ -10,7 +10,7 @@
           <p>owned by {{ playlist.userName }}</p>
         </div>
         <div class="song-number">
-          <p>{{ playlist.songs.length }} Bike</p>
+          <p>{{ playlist.songs.length }} Logs</p>
         </div>
       </div>
     </router-link>
@@ -45,8 +45,8 @@ export default {
     border-radius: 10px;
   }
   img {
-    max-width: 150%;
-    max-height: 150%;
+    max-width: 100%;
+    max-height: 100%;
     display: block;
   }
   .info {
