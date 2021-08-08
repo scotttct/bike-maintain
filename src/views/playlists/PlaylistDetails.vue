@@ -15,7 +15,7 @@
 
     <!-- song list -->
     <div class="song-list">
-      <div v-if="!playlist.songs.length">No Bikes have been added yet.</div>
+      <div v-if="!playlist.songs.length">No logs have been added.</div>
       <div v-for="song in playlist.songs" :key="song.id" class="single-song">
         <div class="logs">
           <h3>{{ song.title }}</h3>
